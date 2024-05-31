@@ -30,16 +30,20 @@
         class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-end py-2 md:py-0 sm:ps-7">
           <a class="py-3 ps-px sm:px-3 font-medium hover:bg-white/10
-          hover:rounded-md " :class="$route.path == '/' ? 'font-bold' : 'font-medium'" href="#" aria-current="page">Beranda</a>
-          <a class="py-3 ps-px sm:px-3  font-medium" href="#">Periode Pengajuan</a>
-          <a class="py-3 ps-px sm:px-3  font-medium" href="#">Biaya</a>
-          <a class="py-3 ps-px sm:px-3  font-medium" href="#">Penelitian Dosen</a>
-          <a class="py-3 ps-px sm:px-3  font-medium" href="#">Panduan</a>
+          hover:rounded-md" :class="$route.path == '/' ? 'font-bold' : 'font-medium'" href="#" aria-current="page">Beranda</a>
+          <a class="py-3 ps-px sm:px-3 font-medium hover:bg-white/10
+          hover:rounded-md" href="#">Periode Pengajuan</a>
+          <a class="py-3 ps-px sm:px-3 font-medium hover:bg-white/10
+          hover:rounded-md" href="#">Biaya</a>
+          <a class="py-3 ps-px sm:px-3 font-medium hover:bg-white/10
+          hover:rounded-md" href="#">Penelitian Dosen</a>
+          <a class="py-3 ps-px sm:px-3 font-medium hover:bg-white/10
+          hover:rounded-md" href="#">Panduan</a>
 
 
 
-          <a class="flex items-center gap-x-2  font-medium hover sm:border-s sm:border-white/30 py-2 md:py-0 sm:my-6 sm:ps-6"
-            href="#">
+          <RouterLink to="/admin" class="flex items-center gap-x-2 font-medium hover sm:border-s sm:border-white/30 py-2 md:py-0 sm:my-6 sm:ps-6"
+            href="/admin">
             <svg class="flex-shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
               viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
               stroke-linejoin="round">
@@ -47,7 +51,7 @@
               <circle cx="12" cy="7" r="4" />
             </svg>
             LOGIN
-          </a>
+          </RouterLink>
           <button type="button"
             class="sm:ms-0 md:ms-3 py-2 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none ">
             SIMAT
