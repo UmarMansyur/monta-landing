@@ -18,14 +18,15 @@
             <h1 class="block text-xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight">
               Aplikasi <span class="text-blue-600">Monitoring</span> Tugas Akhir dan Kerja Praktek</h1>
             <p class="mt-3 text-xl text-gray-800 dark:text-neutral-400">
-              Solusi terdepan yang dirancang khusus untuk memudahkan proses pendaftaran skripsi mahasiswa dan kerja praktek di Universitas Madura
+              Montak adalah platform manajemen tugas akhir dan kerja praktek yang dirancang untuk mempermudah
+              pengelolaan data dan proses administrasi tugas akhir dan kerja praktek mahasiswa.
             </p>
 
             <!-- Buttons -->
             <div class="mt-7 grid gap-3 w-full sm:inline-flex">
-              <a class="py-3 px-9 inline-flex justify-center items-center gap-x-2 text-sm font-semibold rounded-lg border border-transparent bg-gray-600 text-white hover:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
+              <a class="px-6 py-3 inline-flex justify-center items-center gap-x-2 font-semibold rounded-lg border border-transparent bg-gray-600 text-white hover:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none text-md"
                 href="#">
-                Daftar Sekarang
+                Ajukan Proposal
               </a>
 
             </div>
@@ -38,8 +39,8 @@
 
             <!-- SVG-->
             <div class="absolute bottom-0 start-0 hidden sm:block">
-              <svg class="w-2/3 ms-auto h-auto text-white" width="630" height="451"
-                viewBox="0 0 630 451" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="w-2/3 ms-auto h-auto text-white" width="630" height="451" viewBox="0 0 630 451" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <rect x="531" y="352" width="99" height="99" fill="currentColor" />
                 <rect x="140" y="352" width="106" height="99" fill="currentColor" />
                 <rect x="482" y="402" width="64" height="49" fill="currentColor" />
@@ -65,7 +66,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-slate-50 mt-10 my-auto mx-auto">
+    <section class="bg-gray-50 mt-10 my-auto mx-auto">
       <!-- Features -->
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <!-- Grid -->
@@ -86,7 +87,8 @@
                 </span>
               </p>
               <p class="mt-2 sm:mt-3 text-gray-500">
-
+                Montak akan terus melakukan pembaruan dan peningkatan fitur untuk memudahkan pengguna dalam mengelola
+                tugas akhir dan kerja praktek.
               </p>
             </div>
             <!-- End Stats -->
@@ -94,53 +96,39 @@
           <!-- End Col -->
 
           <div
-            class="lg:col-span-8 relative lg:before:absolute lg:before:top-0 lg:before:-start-12 lg:before:w-px lg:before:h-full lg:before:bg-gray-200 lg:before:">
+            class="lg:col-span-8 relative lg:before:absolute lg:before:top-0 lg:before:-start-12 lg:before:w-px lg:before:h-full lg:before:bg-gray-300 lg:before:">
             <div class="grid gap-6 grid-cols-2 md:grid-cols-4 lg:grid-cols-3 sm:gap-8">
-              <!-- Stats -->
               <div>
-                <p class="text-3xl font-semibold text-blue-600">99.95%</p>
-                <p class="mt-1 text-gray-500">in fulfilling orders</p>
+                <p class="text-3xl font-semibold text-blue-600">99+</p>
+                <p class="mt-1 text-gray-500">Pengunjung Bulan Ini</p>
               </div>
-              <!-- End Stats -->
-
-              <!-- Stats -->
               <div>
-                <p class="text-3xl font-semibold text-blue-600">2,000+</p>
-                <p class="mt-1 text-gray-500">partner with Preline</p>
+                <p class="text-3xl font-semibold text-blue-600">144+</p>
+                <p class="mt-1 text-gray-500">Proposal Penelitian yang diajukan</p>
               </div>
-              <!-- End Stats -->
-
-              <!-- Stats -->
               <div>
-                <p class="text-3xl font-semibold text-blue-600">85%</p>
-                <p class="mt-1 text-gray-500">this year alone</p>
+                <p class="text-3xl font-semibold text-blue-600">50+</p>
+                <p class="mt-1 text-gray-500">Proposal Didanai</p>
               </div>
-              <!-- End Stats -->
             </div>
           </div>
-          <!-- End Col -->
         </div>
-        <!-- End Grid -->
       </div>
-      <!-- End Features -->
     </section>
     <section>
-      <!-- Card Section -->
-      <!-- Icon Blocks -->
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <!-- Grid -->
         <div class="grid md:grid-cols-2 gap-12">
           <div class="lg:w-3/4">
             <h2 class="text-3xl text-gray-800 font-bold lg:text-4xl">
-              Collaborative tools to design better user experience
+              Kolaborasi yang lebih baik dengan Montak
             </h2>
             <p class="mt-3 text-gray-800 dark:text-neutral-400">
-              We help businesses bring ideas to life in the digital world, by designing and implementing the technology
-              tools that they need to win.
+              Jangan khawatir dengan judul tugas akhir dan kerja praktek yang sama, Montak akan membantu anda untuk
+              menemukan judul yang sesuai dengan minat dan keahlian anda.
             </p>
             <p class="mt-5">
               <a class="inline-flex items-center gap-x-1 font-medium text-blue-600 dark:text-blue-500" href="#">
-                Contact sales to learn more
+                Selengkapnya
                 <svg class="flex-shrink-0 size-4 transition ease-in-out group-hover:translate-x-1"
                   xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                   stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -149,87 +137,54 @@
               </a>
             </p>
           </div>
-          <!-- End Col -->
-
           <div class="space-y-6 lg:space-y-10">
-            <!-- Icon Block -->
+            <h4 class="text-xl font-bold">Tahapan Pengajuan Proposal dan Kerja Praktek</h4>
             <div class="flex">
               <!-- Icon -->
               <span
                 class="flex-shrink-0 inline-flex justify-center items-center size-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-                <svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M6 12 3.269 3.125A59.769 59.769 0 0 1 21.485 12 59.768 59.768 0 0 1 3.27 20.875L5.999 12Zm0 0h7.5" />
                 </svg>
-              </span>
-              <div class="ms-5 sm:ms-8">
-                <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
-                  Industry-leading documentation
-                </h3>
-                <p class="mt-1 text-gray-600 dark:text-neutral-400">
-                  Our documentation and extensive Client libraries contain everything a business needs to build a custom
-                  integration in a fraction of the time.
-                </p>
-              </div>
-            </div>
-            <!-- End Icon Block -->
 
-            <!-- Icon Block -->
-            <div class="flex">
-              <!-- Icon -->
-              <span
-                class="flex-shrink-0 inline-flex justify-center items-center size-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-                <svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z" />
-                  <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
-                </svg>
-              </span>
-              <div class="ms-5 sm:ms-8">
-                <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
-                  Developer community support
-                </h3>
-                <p class="mt-1 text-gray-600 dark:text-neutral-400">
-                  We actively contribute to open-source projects—giving back to the community through development,
-                  patches, and sponsorships.
-                </p>
-              </div>
-            </div>
-            <!-- End Icon Block -->
 
-            <!-- Icon Block -->
+              </span>
+              <div class="ms-5 sm:ms-8">
+                <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
+                  Memprogram Kerja Praktek/Tugas Akhir
+                </h3>
+                <p class="mt-1 text-gray-600 dark:text-neutral-400">
+                  Langkah pertama yang harus dilakukan adalah memprogram kerja praktek atau tugas akhir melalui SIMAT.
+                  Khusus kerja Praktek hanya ada di Fakultas Teknik.
+                </p>
+              </div>
+            </div>
             <div class="flex">
               <!-- Icon -->
               <span
                 class="flex-shrink-0 inline-flex justify-center items-center size-[46px] rounded-full border border-gray-200 bg-white text-gray-800 shadow-sm mx-auto dark:bg-neutral-900 dark:border-neutral-700 dark:text-neutral-200">
-                <svg class="flex-shrink-0 size-5" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                  viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                  stroke-linejoin="round">
-                  <path d="M7 10v12" />
-                  <path
-                    d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2h0a3.13 3.13 0 0 1 3 3.88Z" />
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  stroke="currentColor" class="size-6">
+                  <path stroke-linecap="round" stroke-linejoin="round"
+                    d="M2.25 8.25h19.5M2.25 9h19.5m-16.5 5.25h6m-6 2.25h3m-3.75 3h15a2.25 2.25 0 0 0 2.25-2.25V6.75A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25v10.5A2.25 2.25 0 0 0 4.5 19.5Z" />
                 </svg>
+
               </span>
               <div class="ms-5 sm:ms-8">
                 <h3 class="text-base sm:text-lg font-semibold text-gray-800 dark:text-neutral-200">
-                  Simple and affordable
+                  Telah Melunasi Tagihan di SIMAT
                 </h3>
                 <p class="mt-1 text-gray-600 dark:text-neutral-400">
-                  From boarding passes to movie tickets, there's pretty much nothing you can't store with Preline.
+                  Langkah pertama yang harus dilakukan adalah memprogram kerja praktek atau tugas akhir melalui SIMAT.
+                  Khusus kerja Praktek hanya ada di Fakultas Teknik.
                 </p>
               </div>
             </div>
-            <!-- End Icon Block -->
           </div>
-          <!-- End Col -->
         </div>
-        <!-- End Grid -->
       </div>
-      <!-- End Icon Blocks -->
-      <!-- End Card Section -->
     </section>
   </main>
 </template>
