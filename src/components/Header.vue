@@ -1,6 +1,6 @@
 <template>
   <!-- ========== HEADER ========== -->
-  <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm fixed top-0 border-b bg-gradient-to-b from-[#001c3b] to-[#00215E] text-white py-1 sm:py-1">
+  <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm fixed top-0 bg-gradient-to-b from-[#001c3b] to-[#00215E] text-white py-3 sm:py-1">
     <nav class="relative max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
       aria-label="Global">
       <div class="flex items-center justify-between">
@@ -29,8 +29,9 @@
       <div id="navbar-collapse-with-animation"
         class="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow sm:block">
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-end py-2 md:py-0 sm:ps-7">
-          <a class="py-3 ps-px sm:px-3 font-medium" :class="$route.path == '/' ? 'font-bold' : 'font-medium'" href="#" aria-current="page">Beranda</a>
-          <a class="py-3 ps-px sm:px-3  font-medium" href="#">Penelitian Dosen</a>
+          <a class="py-3 ps-px sm:px-3 font-medium hover:bg-white/10
+          hover:rounded-md " :class="$route.path == '/' ? 'font-bold' : 'font-medium'" href="#" aria-current="page">Beranda</a>
+          <a class="py-3 ps-px sm:px-3  font-medium" href="#">Periode Pengajuan</a>
           <a class="py-3 ps-px sm:px-3  font-medium" href="#">Biaya</a>
           <a class="py-3 ps-px sm:px-3  font-medium" href="#">Penelitian Dosen</a>
           <a class="py-3 ps-px sm:px-3  font-medium" href="#">Panduan</a>

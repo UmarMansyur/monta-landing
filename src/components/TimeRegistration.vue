@@ -21,7 +21,7 @@
                                 </div>
                                 <input
                                     class="py-2 ps-10 pe-4 block w-full border border-gray-300 rounded-lg focus:border-gray-300 focus:ring-0 focus:ring-opacity-50 focus:ring-offset-0 focus:ring-offset-gray-100 focus:outline-none sm:text-sm"
-                                    type="text" placeholder="Type a name" value="" data-hs-combo-box-input="">
+                                    type="text" placeholder="Cari ..." value="" data-hs-combo-box-input="">
                             </div>
                             <!-- End SearchBox -->
                         </div>

@@ -9,7 +9,7 @@ declare global {
 const routes: Array<RouteRecordRaw> = [
   {
     path: "/",
-    name: "Home",
+    name: "Beranda",
     component: () => import("../views/Home.vue"),
   },
   {
@@ -23,6 +23,13 @@ const router = createRouter({
   history: createWebHistory(),
   routes,
 });
+
+router.beforeEach((to, _from, next) => {
+  document.title = to.name as string + " - MONTAK | Universitas Madura";
+  next();
+});
+
+
 
 router.afterEach((_, _from, failure) => {
   if (!failure) {

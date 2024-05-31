@@ -1,6 +1,6 @@
 <template>
     <section class="hero-section">
-        <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 sm:mt-10">
+        <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 sm:mt-12">
             <div class="grid md:grid-cols-2 gap-4 md:gap-8 xl:gap-20 justify-between md:items-center">
                 <div>
                     <div class="flex mx-auto">
@@ -10,8 +10,8 @@
                             <img class="h-9" src="/images/logo-unira.png" alt="Image Description">
                         </div>
                     </div>
-                    <h4 class="text-xl mt-3 font-bold">Selamat datang di MONTAK</h4>
-                    <h1 class="block text-xl font-bold text-gray-800 sm:text-4xl lg:text-5xl lg:leading-tight">
+                    <h4 class="text-xl mt-3 font-bold sm:text-xl">Selamat datang di MONTAK</h4>
+                    <h1 class="block text-4xl sm:text-xl font-bold text-gray-800 lg:text-5xl lg:leading-tight">
                         Aplikasi <span class="text-blue-600">Monitoring</span> Tugas Akhir dan Kerja Praktek</h1>
                     <p class="mt-3 text-xl text-gray-800">
                         Montak adalah platform manajemen tugas akhir dan kerja praktek yang dirancang untuk mempermudah
